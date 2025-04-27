@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
+    "tailwindcss": "^3.4.17"
+  },
+  "scripts": {
+    "watch": "tailwind -i ./realtime_transcription/static/css/input.css -o ./realtime_transcription/static/css/output.css --watch --poll",
+    "build": "npx tailwindcss -i ./realtime_transcription/static/css/input.css -o ./realtime_transcription/static/css/output.css --watch"
+  }
+}
