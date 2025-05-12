@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+#meeting, transcript, (delete, update関係も追加で作成)
